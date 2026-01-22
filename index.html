@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Gestión de Oficios – Violencia Familiar</title>
+
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --secondary: #0f172a;
+      --accent: #2563eb;
+      --bg: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      color: #111;
+      max-width: 900px;
+      width: 90%;
+      padding: 3rem 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      margin-bottom: 2.2rem;
+      color: #334155;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.9rem 2.2rem;
+      background: var(--accent);
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 20px rgba(37,99,235,0.35);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 26px rgba(37,99,235,0.45);
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Sistema de Gestión de Oficios</h1>
+    <p>
+      Plataforma para la administración, seguimiento y control de oficios
+      relacionados con casos de <strong>Violencia Familiar</strong>,
+      garantizando trazabilidad, orden y confidencialidad de la información.
+    </p>
+
+    <!-- CAMBIA EL href A LA PÁGINA QUE QUIERAS -->
+    <a href="https://script.google.com/macros/s/AKfycbxBJO7HTIMkOW-zOEkdjff5eE3oQ1M0EoPzxdeG2KKAgNiFZLuVal0KKcsjHao5Fd2i/exec" class="btn">
+      Ingresar al Sistema
+    </a>
+
+    <footer>
+      © 2026 – Sistema de Gestión de Oficios
+    </footer>
+  </div>
+
+</body>
+</html>
